@@ -23,8 +23,12 @@ The non-inverting terminal (+) is grounded.
 •	Pin 4 → -15V
 The input sine wave is applied through R1 and output is taken from pin 6.
 ## Circuit Diagram
+<img width="564" height="390" alt="Screenshot 2026-02-23 085504" src="https://github.com/user-attachments/assets/e5077b3e-e659-48ba-b8b0-2eedc3f69ca5" />
+
 ## Tabulation
 Input Voltage (Vin)	Theoretical Gain (Av)	Theoretical Vout	Practical Vout (Proteus)
+<img width="1049" height="254" alt="Screenshot 2026-02-23 085646" src="https://github.com/user-attachments/assets/3b01d2d9-c389-46f3-93cb-a150fd3cc445" />
+
 ## Simulation Procedure (Proteus)
 1.	Open Proteus Design Suite
 2.	Select components:
@@ -45,6 +49,8 @@ o	Input = 1V, 1kHz sine wave
 •	Output: Amplified sine wave
 •	Phase Shift: 180°
 •	Gain ≈ -10
+<img width="1920" height="1080" alt="exp 1 inv" src="https://github.com/user-attachments/assets/cb7f91d9-e0ab-4e1a-bf13-3be1366f92a9" />
+
 ## Result
 The Inverting Amplifier using μA741 Op-Amp was successfully designed and simulated in Proteus.
 The practical output voltage closely matches the theoretical value.
